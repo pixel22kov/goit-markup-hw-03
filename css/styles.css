@@ -32,8 +32,7 @@ ol {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     }
 
 .section{
@@ -113,6 +112,7 @@ font-size: 16px;
 .main-section{
     background-color: #2e2f42;
 }
+
 .main-title {
     font-weight: 700;
         font-size: 56px;
@@ -120,8 +120,10 @@ font-size: 16px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
         margin-bottom: 48px;
 }
+
 .button-order {
     background-color: #4d5ae5;
     cursor: pointer;
@@ -132,6 +134,7 @@ font-size: 16px;
         color: #fff;
         border-radius: 4px;
             padding: 16px 32px;
+            width: 169px;
 }
 
 .button-order:hover,
@@ -256,11 +259,18 @@ background-color: #404BBF;
     background-color: #2e2f42;
     padding: 100px 0;
 }
+
+.page-footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
 .footer-logo-first .logo-second-part {
         color: #f4f4fd;
 }
 
 .footer-text {
+    max-width: 264px;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
