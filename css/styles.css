@@ -30,13 +30,14 @@ ol {
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
     }
 
 .section{
     max-width: 1440px;
-padding: 120px 156px;
+padding: 120px 0;
 }
 
 .page-header{
@@ -46,8 +47,6 @@ padding: 120px 156px;
 .page-header .container{
 display: flex;
 justify-content: space-between;
-padding-top: 24px;
-padding-bottom: 24px;
 }
 
 .logo {
@@ -59,7 +58,7 @@ padding-bottom: 24px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        padding-right: 76px;
+        margin-right: 76px;
 }
 
 .header-logo-first .logo-second-part {
@@ -68,11 +67,16 @@ padding-bottom: 24px;
 
 .header-nav{
     display: flex;
+    align-items: center;
 }
 
 .nav-list{
     display: flex;
     gap: 40px
+}
+
+.nav-item{
+padding: 24px 0;
 }
 
 .nav-link {
@@ -94,6 +98,10 @@ font-weight: 500;
     gap: 40px;
 }
 
+.contacts-item{
+padding: 24px 0;
+}
+
 .contacts-info {
     font-style: normal;
 }
@@ -111,6 +119,7 @@ font-size: 16px;
 
 .main-section{
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .main-title {
@@ -120,7 +129,7 @@ font-size: 16px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        width: 496px;
+        max-width: 496px;
         margin-bottom: 48px;
 }
 
@@ -136,6 +145,9 @@ font-size: 16px;
             padding: 16px 32px;
             margin: 0 auto;
             display: block;
+            border: none;
+            min-width: 169px;
+            height: 56px;
 }
 
 .button-order:hover,
@@ -167,6 +179,7 @@ background-color: #404BBF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .benefits-item{
@@ -191,13 +204,14 @@ background-color: #404BBF;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .team-list{
     display: flex;
     justify-content: center;
     gap: 24px;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-item {
@@ -206,7 +220,7 @@ background-color: #404BBF;
 }
 
 .team-wrapper{
-    padding: 32px 16px;
+    padding: 32px 0px;
 }
 
 .team-name {
@@ -242,6 +256,7 @@ background-color: #404BBF;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item{
