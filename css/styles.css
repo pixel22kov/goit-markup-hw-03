@@ -30,8 +30,7 @@ ol {
 
 .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin: 0 auto;
     }
 
@@ -62,6 +61,7 @@ padding-bottom: 24px;
         color: #4d5ae5;
         padding-right: 76px;
 }
+
 .header-logo-first .logo-second-part {
         color: #2e2f42;
 }
@@ -140,6 +140,19 @@ font-size: 16px;
 .button-order:hover,
 .button-order:focus {
 background-color: #404BBF;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .benefits-list{
